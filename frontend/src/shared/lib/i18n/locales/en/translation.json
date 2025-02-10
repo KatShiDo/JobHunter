@@ -1,0 +1,353 @@
+{
+  "title": {
+    "home": "Home",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "vacancies": "Vacancies",
+    "company": "Company",
+    "responses": "Responses",
+    "reports": "Reports",
+    "users": "Users",
+    "signIn": "Sign in",
+    "signUp": "Registration",
+    "signOut": "Sign out",
+    "emailVerification": "Email Verification",
+    "changePassword": "Change password",
+    "notfound": "Page Not Found",
+    "roles": {
+      "admin": "Admin",
+      "employer": "Employer",
+      "user": "User"
+    }
+  },
+
+  "filters": {
+    "Role": "Role",
+    "RequiredHardSkills": "Required Hard Skills",
+    "HardSkills": "Hard Skills",
+    "DateInterval": "Date Interval",
+    "clearButton": "Clear",
+    "applyButton": "Apply"
+  },
+
+  "dropdown": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "ban": "Ban",
+    "unban": "Unban",
+    "open": "Open",
+    "openVacancy": "Open Vacancy"
+  },
+
+  "profile": {
+    "title": "User Data",
+    "save": "Save",
+    "buttons": {
+      "setPassword": "Set Password",
+      "disbandCompany": "Disband The Company",
+      "createCompany": "Create Company",
+      "deleteAccount": "Delete Account"
+    },
+    "inputs": {
+      "middlename": "middle name",
+      "email": "email",
+      "address": "address",
+      "username": "username"
+    },
+    "popup": {
+      "changeEmail": "Confirmation code will come to your email.",
+      "default": "An error occurred",
+      "button": "Okay",
+      "errorUploadAvatar": "Error when loading an avatar",
+      "errorGetAvatar": "Error when receiving an avatar"
+    }
+  },
+
+  "company": {
+    "createVacancy": "Create Vacancy"
+  },
+
+  "userForms": {
+    "title": {
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "emailVerification": "Email verification",
+      "changePassword": "Change password"
+    },
+    "forgotPassword": "Forgot Password?",
+    "inputs": {
+      "username": "username",
+      "email": "email",
+      "password": "password",
+      "repeatPassword": "repeat password",
+      "validate": {
+        "usernameRequired": "Username must be at least 3 characters long",
+        "emailRequired": "Email must be valid",
+        "passwordRequired": "Password must be at least 6 characters long",
+        "repeatPasswordRequired": "Passwords must match",
+        "passwordsDoNotMatch": "Passwords do not match",
+        "passwordMinLength": "Password must be at least 6 characters long"
+      }
+    },
+    "submitText": {
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "submit": "Submit",
+      "changePassword": "Change password"
+    },
+    "alternativeAuth": {
+      "vk": "Continue with Vk",
+      "yandex": "Continue with Yandex",
+      "signIn": {
+        "title": "Not Registered?",
+        "link": "Create an account"
+      },
+      "signUp": {
+        "title": "Have an account?",
+        "link": "Login here"
+      }
+    },
+    "emailVerification": {
+      "popup": {
+        "error": "An error has occurred, please try again.",
+        "success": "Your email has been successfully verified.",
+        "successVerify": "Your email has been successfully verified.",
+        "successSend": "The confirmation code has been successfully sent to the email.",
+        "resetSuccess": "The confirmation code has been successfully sent to the email.",
+        "button": "Close"
+      }
+    },
+    "changePassword": {
+      "popup": {
+        "notMatch": "The passwords don't match.",
+        "success": "The password has been successfully changed.",
+        "error": "An error has occurred, please try again."
+      }
+    },
+    "signIn": {
+      "error": {
+        "title": "Incorrect login or password",
+        "description": "Please check the correctness of the entered data",
+        "button": "Try again"
+      }
+    },
+    "signUp": {
+      "error": {
+        "default": "An error occurred",
+        "userAlreadyExists": "User already exists",
+        "button": "Try again"
+      }
+    }
+  },
+
+  "modals": {
+    "users": {
+      "ban": {
+        "title": "Ban user",
+        "button": "Ban",
+        "inputs": {
+          "date": "Date",
+          "reason": "Reason"
+        }
+      },
+      "edit": {
+        "title": "Edit user",
+        "button": "Save",
+        "inputs": {
+          "middlename": "middle name",
+          "username": "username",
+          "email": "email",
+          "role": "role"
+        }
+      },
+      "delete": {
+        "title": "Delete user",
+        "description": "Are you sure you want to delete this user?",
+        "button": "Yes"
+      },
+      "unban": {
+        "title": "Unban user",
+        "description": "Are you sure you want to unban this user?",
+        "button": "Yes"
+      }
+    },
+    "profile": {
+      "disbandCompany": {
+        "title": "Disband The Company",
+        "description": "Are you sure you want to disband the company?",
+        "button": "Yes"
+      },
+      "createCompany": {
+        "title": "Create Company",
+        "button": "Create",
+        "inputs": {
+          "name": "Name",
+          "description": "Description",
+          "address": "Address"
+        }
+      },
+      "deleteAccount": {
+        "title": "Delete Account",
+        "description": "Are you sure you want to delete your account?",
+        "button": "Yes"
+      }
+    },
+    "company": {
+      "createVacancy": {
+        "title": "Create Vacancy",
+        "button": "Create",
+        "inputs": {
+          "title": "Title",
+          "description": "Description",
+          "hardSkills": "Hard Skills",
+          "leastSalary": "Least Salary",
+          "highestSalary": "Highest Salary"
+        }
+      },
+      "deleteVacancy": {
+        "title": "Remove the vacancy",
+        "description": "Are you sure you want to delete this vacancy?",
+        "button": "Yes"
+      },
+      "editVacancy": {
+        "title": "Edit the vacancy",
+        "button": "Save"
+      }
+    },
+    "vacancy": {
+      "reply": {
+        "title": "Reply to the vacancy",
+        "button": "Send",
+        "inputs": {
+          "skills": "Skills",
+          "description": "Description"
+        }
+      }
+    },
+    "report": {
+      "title": "Report",
+      "button": "Send",
+      "inputs": {
+        "reason": "Write the reason for your report"
+      },
+      "popup": {
+        "success": "Report sent successfully",
+        "error": "When sending a report, an error occurred",
+        "button": "Close"
+      },
+      "delete": {
+        "title": "Delete a report",
+        "description": "Are you sure you want to remove this report?",
+        "button": "Yes"
+      }
+    },
+    "response": {
+      "delete": {
+        "title": "Delete a response",
+        "description": "Do you really want to delete the response?",
+        "button": "Yes"
+      }
+    }
+  },
+
+  "tables": {
+    "company": {
+      "title": "Title",
+      "description": "Description",
+      "hardSkills": "Required Hard Skills",
+      "leastSalary": "Salary Least",
+      "leastHighest": "Highest Least",
+      "responses": "Responses",
+      "lastUpdate": "Last Updated",
+      "actions": "Actions"
+    },
+    "response": {
+      "title": "Vacancy",
+      "middlename": "Middle Name",
+      "email": "Email",
+      "description": "Description",
+      "skills": "Skills",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "reports": {
+      "senderId": "Sender ID",
+      "reasonUrl": "Reason URL",
+      "reason": "Reason",
+      "actions": "Actions"
+    },
+    "users": {
+      "middlename": "Middle Name",
+      "username": "Username",
+      "email": "Email",
+      "avatar": "Avatar",
+      "role": "Role",
+      "ban": "Ban Date",
+      "actions": "Actions"
+    },
+    "dashboard": {
+      "title": "Title",
+      "valueAll": "Value - All",
+      "valuePerMonth": "Value - Per Month",
+      "recentEntries": "Recent Entries",
+      "users": "Users",
+      "vacancies": "Vacancies",
+      "companies": "Companies"
+    }
+  },
+
+  "vacancy": {
+    "title": "Vacancy",
+    "description": "Description",
+    "hardSkills": "Hard Skills",
+    "createdAt": "Last Updated",
+    "companyInfo": "Company Info",
+    "company": {
+      "name": "Name",
+      "address": "Address",
+      "email": "Email"
+    },
+    "buttons": {
+      "reply": "Reply",
+      "report": "Report",
+      "delete": "Delete",
+      "ban": "Ban the owner"
+    }
+  },
+
+  "signout": "Sign Out",
+
+  "notification": {
+    "email": {
+      "title": "Your email has not been verified.",
+      "description": "Some functions are not available, please confirm your email.",
+      "linkText": "Send the code again"
+    },
+    "ban": {
+      "title": "Your account is blocked, and some functions are unavailable.",
+      "description": "Your account is blocked until.",
+      "linkText": "Contact support"
+    }
+  },
+
+  "contact": {
+    "title": "Contact us",
+    "description": "If you have any questions or concerns, please fill out this form and we will contact you as soon as possible.",
+    "subject": "Subject",
+    "message": "Message",
+    "button": "Send",
+    "popup": {
+      "success": "The message was sent successfully.",
+      "error": "An error occurred when submitting the form.",
+      "button": "Close"
+    }
+  },
+
+  "vacancies": {
+    "notFound": "No vacancies found."
+  },
+
+  "search": {
+    "placeholder": "Search"
+  }
+}

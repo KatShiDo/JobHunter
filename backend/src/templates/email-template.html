@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+      }
+      .container {
+        max-width: 600px;
+        width: 90%;
+        margin: 40px auto;
+        background: #ffffff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .logo img {
+        max-width: 150px;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px 0;
+      }
+      .content {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .links a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img
+          src="https://i124.fastpic.org/big/2025/0131/e0/c0c5acc741c7843461c0f74b174b63e0.webp"
+          alt="Logo"
+        />
+      </div>
+      <div class="title">{{subject}}</div>
+      <div class="content">{{{content}}}</div>
+      <div class="links">
+        <a href="#">Наш сайт</a>
+        <a href="#">Поддержка</a>
+      </div>
+    </div>
+  </body>
+</html>

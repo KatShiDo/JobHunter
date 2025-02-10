@@ -1,0 +1,30 @@
+services:
+  mongodb:
+    image: mongo:4.4
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example_password
+    volumes:
+      - mongodb:/data/db
+    networks:
+      - app_network
+
+  server:
+    build: .
+    container_name: jobhunter
+    ports:
+      - "3000:3000"
+    volumes:
+      - uploads:/usr/src/app/src/uploads
+    networks:
+      - app_network
+
+volumes:
+  mongodb:
+  uploads:
+
+networks:
+  app_network:
