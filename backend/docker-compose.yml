@@ -16,7 +16,7 @@ services:
     build: .
     container_name: jobhunter
     ports:
-      - "3000:3000"
+      - "8080:8080"
     volumes:
       - uploads:/usr/src/app/src/uploads
     networks:
